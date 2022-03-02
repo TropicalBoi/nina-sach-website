@@ -76,13 +76,15 @@ const Landing = () => {
         `}
         alt="SACH"
       />
-      <div className={css`
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      `}>
+      <div
+        className={css`
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        `}
+      >
         <video
           className="video-player"
           height="auto"
@@ -90,9 +92,10 @@ const Landing = () => {
           loop
           muted
           autoPlay
-        >
-          <source src={LandingVid} type="video/mp4" />
-        </video>
+          playsinline
+          src={LandingVid}
+          type="video/mp4"
+        ></video>
       </div>
     </div>
   );
