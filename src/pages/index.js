@@ -11,7 +11,6 @@ const IndexPage = () => {
         overflow: hidden;
         width: 100vw;
         height: 100vh;
-        scrollbar-width: none;
       `}
     >
       <Helmet>
