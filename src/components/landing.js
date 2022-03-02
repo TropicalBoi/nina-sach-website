@@ -288,10 +288,10 @@ const Landing = () => {
               animation-fill-mode: forwards;
               visibility: hidden;
               position: absolute;
-              width: 380px;
+              width: 19.79vw;
               height: auto;
-              left: 299px;
-              top: 146px;
+              left: 15.57vw;
+              top: 15.41vh;
             `}
             alt="obj1"
           />
@@ -302,10 +302,10 @@ const Landing = () => {
               animation-fill-mode: forwards;
               visibility: hidden;
               position: absolute;
-              width: 279px;
+              width: 14.53vw;
               height: auto;
-              left: 857px;
-              top: 224px;
+              left: 44.63vw;
+              top: 23.65vh;
             `}
             alt="obj2"
           />
@@ -316,10 +316,10 @@ const Landing = () => {
               animation-fill-mode: forwards;
               visibility: hidden;
               position: absolute;
-              width: 390px;
+              width: 20.31vw;
               height: auto;
-              left: 1314px;
-              top: 146px;
+              left: 68.43vw;
+              top: 15.41vh;
             `}
             alt="obj3"
           />
@@ -330,10 +330,10 @@ const Landing = () => {
               animation-fill-mode: forwards;
               visibility: hidden;
               position: absolute;
-              width: 176px;
-              height: 176px;
-              left: 496px;
-              top: 115px;
+              width: 9.16vw;
+              height: 9.16vw;
+              left: 25.83vw;
+              top: 12.14vh;
             `}
             alt="spcbrR"
           />
@@ -344,10 +344,10 @@ const Landing = () => {
               animation-fill-mode: forwards;
               visibility: hidden;
               position: absolute;
-              width: 331px;
-              height: 189px;
-              left: 1154px;
-              top: 440px;
+              width: 17.23vw;
+              height: auto;
+              left: 60.10vw;
+              top: 46.46vh;
               z-index: 5;
             `}
             alt="spcbrCard2"
@@ -359,10 +359,10 @@ const Landing = () => {
               animation-fill-mode: forwards;
               visibility: hidden;
               position: absolute;
-              width: 273px;
-              height: 272px;
-              left: 1218px;
-              top: 107px;
+              width: 14.21vw;
+              height: auto;
+              left: 63.43vw;
+              top: 11.29vh;
             `}
             alt="spcbrAst"
           />
@@ -373,10 +373,10 @@ const Landing = () => {
               animation-fill-mode: forwards;
               visibility: hidden;
               position: absolute;
-              width: 251px;
-              height: 367px;
-              left: 429px;
-              top:  336px;
+              width: 13.07vw;
+              height: auto;
+              left: 22.34vw;
+              top:  35.48vh;
             `}
             alt="spcbrSig"
           />
@@ -387,10 +387,10 @@ const Landing = () => {
               animation-fill-mode: forwards;
               visibility: hidden;
               position: absolute;
-              width: 430px;
-              height: 597px;
-              left: 734px;
-              top: 107px;
+              width: 22.39vw;
+              height: auto;
+              left: 38.22vw;
+              top: 11.29vh;
               z-index: 1;
             `}
             alt="spcbr4"
@@ -402,10 +402,10 @@ const Landing = () => {
               animation-fill-mode: forwards;
               visibility: hidden;
               position: absolute;
-              width: 430px;
-              height: 597px;
-              left: 734px;
-              top: 107px;
+              width: 22.39vw;
+              height: auto;
+              left: 38.22vw;
+              top: 11.29vh;
               z-index: 2;
             `}
             alt="spcbr2"
@@ -417,29 +417,29 @@ const Landing = () => {
               animation-fill-mode: forwards;
               visibility: hidden;
               position: absolute;
-              width: 430px;
-              height: 597px;
-              left: 734px;
-              top: 107px;
+              width: 22.39vw;
+              height: auto;
+              left: 38.22vw;
+              top: 11.29vh;
               z-index: 3;
             `}
             alt="spcbr3"
           />
-          {/* <img
+          <img
             src={LandingImages.spcbr1}
             className={css`
               animation: ${showUp} 6s linear 36s;
               animation-fill-mode: forwards;
               visibility: hidden;
               position: absolute;
-              width: 430px;
-              height: 597px;
-              left: 734px;
-              top: 107px;
+              width: 22.39vw;
+              height: auto;
+              left: 38.22vw;
+              top: 11.29vh;
               z-index: 4;
             `}
             alt="spcbr1"
-          /> */}
+          />
         </div>
       </div>
     </div>
