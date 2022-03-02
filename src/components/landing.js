@@ -425,7 +425,7 @@ const Landing = () => {
             `}
             alt="spcbr3"
           />
-          <img
+          {/* <img
             src={LandingImages.spcbr1}
             className={css`
               animation: ${showUp} 6s linear 36s;
@@ -439,7 +439,7 @@ const Landing = () => {
               z-index: 4;
             `}
             alt="spcbr1"
-          />
+          /> */}
         </div>
       </div>
     </div>
