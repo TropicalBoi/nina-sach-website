@@ -2,11 +2,10 @@ import * as React from "react";
 import Navbar from "../components/navbar";
 import Landing from "../components/landing";
 import { Helmet } from "react-helmet";
-import { css } from "@emotion/css";
 
 const IndexPage = () => {
   return (
-    <div>
+    <div className="indexPage">
       <Helmet>
         <meta charSet="utf-8" />
         <title>NINASACH - /\///\//\ *</title>

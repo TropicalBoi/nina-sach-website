@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav
       className={css`
-        position: absolute;
+        position: fixed;
         top: 0;
         height: 5vh;
         width: 100vw;
@@ -20,7 +20,7 @@ const Navbar = () => {
       <Link
         className={css`
           font-family: RuneScape-Quill-Caps;
-          font-size: 50px;
+          font-size: 38px;
           position: relative;
           margin: 0 0 0 1.5vw;
           color: #ffffff;
@@ -32,7 +32,7 @@ const Navbar = () => {
       <Link
         className={css`
           font-family: RuneScape-Quill-Caps;
-          font-size: 5vw;
+          font-size: 50px;
           position: relative;
           color: #ffffff;
         `}
@@ -43,7 +43,7 @@ const Navbar = () => {
       <Link
         className={css`
           font-family: RuneScape-Quill-Caps;
-          font-size: 50px;
+          font-size: 38px;
           position: relative;
           margin: 0 1.5vw 0 0;
           color: #ffffff;

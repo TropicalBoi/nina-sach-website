@@ -1,9 +1,3 @@
-@-moz-document url-prefix() {
-  html {
-    height: 100%;
-  }
-}
-
 @font-face {
   font-family: "RuneScape-Quill-Caps";
   font-style: normal;
@@ -22,13 +16,15 @@
 
 body {
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000000;
-  min-height: 100%;
+  cursor: url("../images/cursor.png"), auto;
 }
 
 code {
@@ -38,6 +34,7 @@ code {
 
 a {
   text-decoration: none;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=141073), auto;
 }
 
 p {

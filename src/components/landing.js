@@ -11,21 +11,21 @@ const logoMove1 = keyframes`
     bottom: 0;
   }
   100% {
-    bottom: 200%;
+    bottom: 200vh;
   }
 `;
 
 const logoMove2 = keyframes`
 0% {
-  bottom: -40%;
+  bottom: -40vh;
   opacity: 1;
 }
 50% {
-  bottom: -20%;
+  bottom: -20vh;
   opacity: 1;
 }
 100% {
-  bottom: 1%;
+  bottom: 1vh;
   opacity: 1;
 }
 `;
@@ -36,6 +36,7 @@ const Landing = () => {
       className={css`
         width: 100vw;
         height: 100%;
+        overflow: hidden;
       `}
     >
       <div
@@ -48,7 +49,6 @@ const Landing = () => {
           display: flex;
           align-items: center;
           justify-content: center;
-          overflow: hidden;
         `}
       >
         <img
@@ -61,20 +61,33 @@ const Landing = () => {
           alt="NINA"
         />
       </div>
-      <img
-        src={LandingImages.SCH}
+      <div
         className={css`
-          animation: ${logoMove2} 1s ease-out 3s;
-          animation-fill-mode: forwards;
-          opacity: 0;
+          width: 100vw;
+          height: fit-content;
           position: absolute;
-          height: auto;
-          width: 96%;
-          margin: 0 2vw;
-          z-index: 100;
+          bottom: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
         `}
-        alt="SACH"
-      />
+      >
+        <img
+          src={LandingImages.SCH}
+          className={css`
+            animation: ${logoMove2} 1s ease-out 3s;
+            animation-fill-mode: forwards;
+            opacity: 0;
+            position: relative;
+            width: 96%;
+            margin: 0 2vw;
+            z-index: 100;
+          `}
+          alt="SACH"
+        />
+      </div>
+
       <div
         className={css`
           width: 100vw;
