@@ -6,13 +6,7 @@ import { css } from "@emotion/css";
 
 const IndexPage = () => {
   return (
-    <div
-      className={css`
-        overflow: hidden;
-        width: 100vw;
-        height: 100vh;
-      `}
-    >
+    <div>
       <Helmet>
         <meta charSet="utf-8" />
         <title>NINASACH - /\///\//\ *</title>
