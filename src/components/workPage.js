@@ -1,6 +1,7 @@
 import * as React from "react";
 import { css } from "@emotion/css";
 import Playlist from "./playlist";
+import { Link } from "gatsby";
 
 const WorkPage = () => {
   return (
@@ -22,17 +23,19 @@ const WorkPage = () => {
         `}
         alt=""
       />
-      <img
-        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/02_SPCEBAR.gif"
-        className={css`
-          position: absolute;
-          width: 34.63vw;
-          height: auto;
-          left: 53.125vw;
-          top: 31.52vh;
-        `}
-        alt=""
-      />
+      <Link to="/spacebar">
+        <img
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/02_SPCEBAR.gif"
+          className={css`
+            position: absolute;
+            width: 34.63vw;
+            height: auto;
+            left: 53.125vw;
+            top: 31.52vh;
+          `}
+          alt=""
+        />
+      </Link>
       <img
         src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/03_Resign.png"
         className={css`
