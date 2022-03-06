@@ -1,6 +1,5 @@
 import * as React from "react";
 import { css } from "@emotion/css";
-import WorkPageImages from "./workPageImages";
 
 const WorkPage = () => {
   return (
@@ -12,7 +11,7 @@ const WorkPage = () => {
       `}
     >
       <img
-        src={WorkPageImages.NNA2022}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/01_NINA2022.png"
         className={css`
           position: absolute;
           width: 33.22vw;
@@ -23,7 +22,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.SPCBR}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/02_SPCEBAR.gif"
         className={css`
           position: absolute;
           width: 34.63vw;
@@ -34,7 +33,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.RESIGN}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/03_Resign.png"
         className={css`
           position: absolute;
           width: 31.1vw;
@@ -45,7 +44,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.ZINEFLOWER}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/04_Flowerzine.jpg"
         className={css`
           position: absolute;
           width: 48.36vw;
@@ -56,7 +55,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.CULTDIS}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/05_CULTURALDISTRICT.jpg"
         className={css`
           position: absolute;
           width: 43.02vw;
@@ -67,7 +66,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.GCCOV}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/07_GC_cov.gif"
         className={css`
           position: absolute;
           width: 36.875vw;
@@ -78,7 +77,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.SOLF}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/08_SOULFRIEND.png"
         className={css`
           position: absolute;
           width: 40.46vw;
@@ -89,7 +88,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.SOIF}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/09_SIF.png"
         className={css`
           position: absolute;
           width: 26.56vw;
@@ -100,7 +99,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.AVGD}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/10_AVOGARDE.jpg"
         className={css`
           position: absolute;
           width: 42.91vw;
@@ -111,7 +110,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.BKKIF}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/11_BKKIF.gif"
         className={css`
           position: absolute;
           width: 50.78vw;
@@ -122,7 +121,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.JEAGUN}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/12_jaegun.jpg"
         className={css`
           position: absolute;
           width: 29.94vw;
@@ -133,7 +132,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.LIT2022}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/13_LIT2020.jpg"
         className={css`
           position: absolute;
           width: 84.375vw;
@@ -144,7 +143,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.OBJ}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/14_OBJ.gif"
         className={css`
           position: absolute;
           width: 34.47vw;
@@ -155,7 +154,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.FEMME}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/15_Femme.jpg"
         className={css`
           position: absolute;
           width:  35.31vw;
@@ -166,7 +165,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.SNST}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/16_Sunset.jpg"
         className={css`
           position: absolute;
           width: 33.02vw;
@@ -177,7 +176,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.PRDCTN}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/17_production.jpg"
         className={css`
           position: absolute;
           width: 33.38vw;
@@ -188,7 +187,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.HDDNTRCK}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/18_HIDDENTRACKSCOVCOV.gif"
         className={css`
           position: absolute;
           width: 84.37vw;
@@ -199,7 +198,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.ARTMRKT}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/19_ARTMARKET.gif"
         className={css`
           position: absolute;
           width: 43.59vw;
@@ -210,7 +209,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.RISO}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/20_RISO.jpg"
         className={css`
           position: absolute;
           width: 28.38vw;
@@ -221,7 +220,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.JMILL}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/21_JAM_illus.jpg"
         className={css`
           position: absolute;
           width: 22.13vw;
@@ -232,7 +231,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.THESIS}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/22_Thesis.gif"
         className={css`
           position: absolute;
           width: 43.64vw;
@@ -243,7 +242,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.MUTL}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/23_Mutual.jpg"
         className={css`
           position: absolute;
           width: 42.91vw;
@@ -254,7 +253,7 @@ const WorkPage = () => {
         alt=""
       />
       <img
-        src={WorkPageImages.TXIC}
+        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/24_TOXIC.gif"
         className={css`
           position: absolute;
           width: 30vw;
