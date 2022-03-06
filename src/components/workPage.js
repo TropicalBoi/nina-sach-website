@@ -1,5 +1,6 @@
 import * as React from "react";
 import { css } from "@emotion/css";
+import Playlist from "./playlist";
 
 const WorkPage = () => {
   return (
@@ -65,6 +66,15 @@ const WorkPage = () => {
         `}
         alt=""
       />
+      <div
+        className={css`
+          position: absolute;
+          left: 62.03vw;
+          top: 169.73vh;
+        `}
+      >
+        <Playlist />
+      </div>
       <img
         src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/07_GC_cov.gif"
         className={css`
@@ -157,7 +167,7 @@ const WorkPage = () => {
         src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/15_Femme.jpg"
         className={css`
           position: absolute;
-          width:  35.31vw;
+          width: 35.31vw;
           height: auto;
           left: 52.7vw;
           top: 603.95vh;

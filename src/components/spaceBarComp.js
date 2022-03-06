@@ -1,8 +1,7 @@
 import * as React from "react";
 import { css } from "@emotion/css";
-import spaceBarImages from "./spaceBarImages";
 
-const WorkPage = () => {
+const spaceBar = () => {
   return (
     <div
       className={css`
@@ -16,4 +15,4 @@ const WorkPage = () => {
   );
 };
 
-export default WorkPage;
+export default spaceBar;
