@@ -11,11 +11,11 @@ const move1 = keyframes`
     transform: rotate(-21.5deg);
   }
   50% {
-    top: 18.73vh;
+    top: 18.73vmin;
     transform: rotate(0deg);
   }
   75% {
-    top: 18.73vh;
+    top: 18.73vmin;
     transform: rotate(0deg);
   }
   100% {
@@ -33,11 +33,11 @@ const move2 = keyframes`
     
   }
   50% {
-    top: 33.29vh;
+    top: 33.29vmin;
     
   }
   75% {
-    top: 33.29vh;
+    top: 33.29vmin;
     
   }
   100% {
@@ -54,7 +54,7 @@ const rotate = keyframes`
   }
 `;
 
-const InspaceBar = () => {
+const SpaceBarComp = () => {
   return (
     <div
       className={css`
@@ -71,7 +71,7 @@ const InspaceBar = () => {
         className={css`
           position: relative;
           width: 100vw;
-          height: 100vh;
+          height: 100vmin;
           display: inline;
         `}
       >
@@ -82,7 +82,7 @@ const InspaceBar = () => {
             width: 34.63vw;
             height: auto;
             left: 18.8vw;
-            top: 29.67vh;
+            top: 29.67vmin;
             margin-right: 6.25vw;
           `}
           alt="space bar"
@@ -93,7 +93,7 @@ const InspaceBar = () => {
             width: 17.73vw;
             height: fit-content;
             left: 59.71vw;
-            top: 17.84vh;
+            top: 17.84vmin;
           `}
         >
           <img
@@ -178,8 +178,8 @@ const InspaceBar = () => {
         className={css`
           position: relative;
           width: 57.08vw;
-          height: 100vh;
-          margin-bottom: 21.43vmin;
+          height: 100vmin;
+          margin-bottom: 10vmin;
         `}
       >
         <img
@@ -231,7 +231,7 @@ const InspaceBar = () => {
         className={css`
           position: relative;
           width: 100vw;
-          height: 100vh;
+          height: 100vmin;
         `}
       >
         <img
@@ -241,7 +241,7 @@ const InspaceBar = () => {
             width: 9.16vw;
             height: auto;
             left: 25.93vw;
-            top: 5.2vh;
+            top: 5.2vmin;
             animation: ${rotate} 10s linear infinite;
           `}
           alt="element"
@@ -253,7 +253,7 @@ const InspaceBar = () => {
             width: 19.53vw;
             height: auto;
             left: 20.72vw;
-            top: 39.33vh;
+            top: 39.33vmin;
           `}
           alt="element"
         />
@@ -273,4 +273,4 @@ const InspaceBar = () => {
   );
 };
 
-export default InspaceBar;
+export default SpaceBarComp;

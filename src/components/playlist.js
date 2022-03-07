@@ -3,7 +3,7 @@ import { css, keyframes } from "@emotion/css";
 import playlist01 from "../images/01highground_playlist.png";
 import playlist02 from "../images/02groovy_playlist.png";
 import playlist03 from "../images/03sungazing_playlist.png";
-import playlist04 from "../images/03sungazing_playlist.png";
+import playlist04 from "../images/04thoughts_playlist.png";
 
 const round1 = keyframes`
   0% {

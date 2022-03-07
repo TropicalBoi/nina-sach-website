@@ -39,17 +39,21 @@ const Navbar = () => {
       >
         <p>WORKS</p>
       </Link>
-      <Link to="/">
+      <Link to="/" className={css`
+            width: fit-content;
+            height: fit-content;
+          `}>
         <img
           src={asterisk}
           className={css`
-            width: 1.8vw;
+            width: 30px;
             height: auto;
             animation: ${rotate} 8s linear infinite;
             &:hover {
               animation-play-state: paused;
             }
           `}
+          alt="home"
         />
       </Link>
       <Link
