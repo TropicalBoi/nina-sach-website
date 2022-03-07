@@ -192,7 +192,7 @@ const CulturalDistrictComp = () => {
           height: fit-content;
           display: flex;
           flex-direction: row;
-          justify-content: space-evenly;
+          justify-content: center;
           align-items: flex-start;
         `}
       >
@@ -201,7 +201,7 @@ const CulturalDistrictComp = () => {
           className={css`
             width:  23.85vw;
             height: auto;
-            margin: 20vmin 0;
+            margin: 20vmin 2vw;
           `}
         />
         <img
@@ -209,7 +209,7 @@ const CulturalDistrictComp = () => {
           className={css`
             width: 23.85vw;
             height: auto;
-            margin: 20vmin 0;
+            margin: 20vmin 2vw;
           `}
         />
       </div>
