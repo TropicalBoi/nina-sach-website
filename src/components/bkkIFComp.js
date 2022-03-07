@@ -80,7 +80,7 @@ const bkkIFComp = () => {
           className={css`
             width: 64.94vw;
             height: auto;
-            margin: 10vmin 0;
+            margin: 10vmin 0 20vmin 0;
           `}
         />
       </div>

@@ -22,9 +22,10 @@ const Navbar = () => {
         width: 100vw;
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: space-between;
         z-index: 999;
+        margin-top: 1vmin;
       `}
     >
       <Link
@@ -34,6 +35,7 @@ const Navbar = () => {
           position: relative;
           margin: 0 0 0 1.5vw;
           color: #ffffff;
+          line-height: 20px;
         `}
         to="/works"
       >
@@ -63,6 +65,7 @@ const Navbar = () => {
           position: relative;
           margin: 0 1.5vw 0 0;
           color: #ffffff;
+          line-height: 20px;
         `}
         to="/about"
       >

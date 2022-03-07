@@ -199,7 +199,7 @@ const CulturalDistrictComp = () => {
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/culturalDistrict/iphone_cult1.png"
           className={css`
-            width:  32.29vw;
+            width:  23.85vw;
             height: auto;
             margin: 20vmin 0;
           `}
@@ -207,7 +207,7 @@ const CulturalDistrictComp = () => {
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/culturalDistrict/iphone_cult2.png"
           className={css`
-            width: 32.29vw;
+            width: 23.85vw;
             height: auto;
             margin: 20vmin 0;
           `}

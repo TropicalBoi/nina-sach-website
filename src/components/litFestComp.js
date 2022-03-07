@@ -126,7 +126,7 @@ const LetFestComp = () => {
           className={css`
             width:  25.15vw;
             height: auto;
-            margin: 10vmin 1vw;
+            margin: 10vmin 1vw 20vmin 1vw;
           `}
         />
         <img
@@ -134,7 +134,7 @@ const LetFestComp = () => {
           className={css`
             width: 25.15vw;
             height: auto;
-            margin: 10vmin 1vw;
+            margin: 10vmin 1vw 20vmin 1vw;
           `}
         />
         <img
@@ -142,7 +142,7 @@ const LetFestComp = () => {
           className={css`
             width: 25.15vw;
             height: auto;
-            margin: 10vmin 1vw;
+            margin: 10vmin 1vw 20vmin 1vw;
           `}
         />
       </div>
