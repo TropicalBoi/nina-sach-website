@@ -71,6 +71,7 @@ const CulturalDistrictComp = () => {
             muted
             autoPlay
             playsinline
+            webkit-playsinline
             src="https://nina-website.s3.ap-southeast-1.amazonaws.com/culturalDistrict/CulturalDistrict_profile.mp4"
             type="video/mp4"
           ></video>

@@ -36,17 +36,19 @@ const WorkPage = () => {
           alt=""
         />
       </Link>
-      <img
-        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/03_Resign.png"
-        className={css`
-          position: absolute;
-          width: 31.1vw;
-          height: auto;
-          left: 12.29vw;
-          top: 111.86vmin;
-        `}
-        alt=""
-      />
+      <Link to="/resignation">
+        <img
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/03_Resign.png"
+          className={css`
+            position: absolute;
+            width: 31.1vw;
+            height: auto;
+            left: 12.29vw;
+            top: 111.86vmin;
+          `}
+          alt=""
+        />
+      </Link>
       <img
         src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/04_Flowerzine.jpg"
         className={css`
@@ -80,17 +82,19 @@ const WorkPage = () => {
       >
         <Playlist />
       </div>
-      <img
-        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/07_GC_cov.gif"
-        className={css`
-          position: absolute;
-          width: 36.875vw;
-          height: auto;
-          left: 9.42vw;
-          top: 244.64vmin;
-        `}
-        alt=""
-      />
+      <Link to="/groundControl">
+        <img
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/07_GC_cov.gif"
+          className={css`
+            position: absolute;
+            width: 36.875vw;
+            height: auto;
+            left: 9.42vw;
+            top: 244.64vmin;
+          `}
+          alt=""
+        />
+      </Link>
       <img
         src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/08_SOULFRIEND.png"
         className={css`

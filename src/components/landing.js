@@ -104,6 +104,7 @@ const Landing = () => {
           muted
           autoPlay
           playsinline
+          webkit-playsinline
           src={LandingVid}
           type="video/mp4"
         ></video>
