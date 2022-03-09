@@ -37,6 +37,13 @@ const GCComp = () => {
             margin-right: 3vw;
           `}
         />
+        {/* <img
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/GroundControl/gc_fb_cover.mp4"
+          className={css`
+            width: 51.71vw;
+            height: 39.22vh;
+          `}
+        /> */}
 
         <div
           className={css`
@@ -51,8 +58,9 @@ const GCComp = () => {
             loop
             muted
             autoPlay
-            playsinline
-            webkit-playsinline
+            playsInline
+            webkit-playsInline
+            preload="metadata"
             src="https://nina-website.s3.ap-southeast-1.amazonaws.com/GroundControl/gc_fb_cover.mp4"
             type="video/mp4"
           ></video>

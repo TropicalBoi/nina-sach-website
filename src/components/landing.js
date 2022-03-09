@@ -103,8 +103,8 @@ const Landing = () => {
           loop
           muted
           autoPlay
-          playsinline
-          webkit-playsinline
+          playsInline
+          webkit-playsInline
           src={LandingVid}
           type="video/mp4"
         ></video>
