@@ -49,17 +49,19 @@ const WorkPage = () => {
           alt=""
         />
       </Link>
-      <img
-        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/04_Flowerzine.jpg"
-        className={css`
-          position: absolute;
-          width: 48.36vw;
-          height: auto;
-          left: 46.25vw;
-          top: 93.75vmin;
-        `}
-        alt=""
-      />
+      <Link to="/flowerZine">
+        <img
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/04_Flowerzine.jpg"
+          className={css`
+            position: absolute;
+            width: 48.36vw;
+            height: auto;
+            left: 46.25vw;
+            top: 93.75vmin;
+          `}
+          alt=""
+        />
+      </Link>
       <Link to="/culturalDistrict">
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/05_CULTURALDISTRICT.jpg"

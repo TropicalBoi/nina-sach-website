@@ -7,7 +7,7 @@ const moveLeft = keyframes`
 }
 
 100% {
-  background-position: 100%;
+  background-position: -6205.88px;
 }
 `;
 
@@ -37,18 +37,10 @@ const GCComp = () => {
             margin-right: 3vw;
           `}
         />
-        {/* <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/GroundControl/gc_fb_cover.mp4"
-          className={css`
-            width: 51.71vw;
-            height: 39.22vh;
-          `}
-        /> */}
-
         <div
           className={css`
             width: 51.71vw;
-            height: 39.22vh;
+            height: fit-content;
           `}
         >
           <video
@@ -84,6 +76,91 @@ const GCComp = () => {
             margin: 10vmin 0 20vmin 0;
           `}
         />
+      </div>
+      <div
+        className={css`
+          width: 34.53vw;
+          height: fit-content;
+          margin-left: auto;
+          margin-right: auto;
+        `}
+      >
+        <video
+          className="video-player"
+          height="auto"
+          width="100%"
+          loop
+          muted
+          autoPlay
+          playsInline
+          webkit-playsInline
+          preload="metadata"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/GroundControl/GC_discov.mp4"
+          type="video/mp4"
+        ></video>
+      </div>
+      <div
+        className={css`
+          width: 100vw;
+          height: 52.02vmin;
+          background-image: url("https://nina-website.s3.ap-southeast-1.amazonaws.com/GroundControl/gc_content_cover.jpg");
+          background-repeat: repeat;
+          animation: ${moveLeft} 20s linear infinite;
+          background-size: auto 100%;
+          margin: 20vmin 0;
+        `}
+      ></div>
+      <div
+        className={css`
+          width: 100vw;
+          height: fit-content;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          margin: 10vmin 0 20vmin 0;
+        `}
+      >
+        <div
+          className={css`
+            width: 20vw;
+            height: fit-content;
+          `}
+        >
+          <video
+            className="video-player"
+            height="auto"
+            width="100%"
+            loop
+            muted
+            autoPlay
+            playsInline
+            webkit-playsInline
+            preload="metadata"
+            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/GroundControl/GC_iphone.mp4"
+            type="video/mp4"
+          ></video>
+        </div>
+        <div
+          className={css`
+            width: 43.43vw;
+            height: fit-content;
+          `}
+        >
+          <video
+            className="video-player"
+            height="auto"
+            width="100%"
+            loop
+            muted
+            autoPlay
+            playsInline
+            webkit-playsInline
+            preload="metadata"
+            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/GroundControl/GC_Macbook2.mp4"
+            type="video/mp4"
+          ></video>
+        </div>
       </div>
     </div>
   );

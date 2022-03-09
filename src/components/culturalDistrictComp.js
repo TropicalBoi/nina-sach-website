@@ -3,21 +3,21 @@ import { css, keyframes } from "@emotion/css";
 
 const moveRight = keyframes`
 0% {
-  background-position: 100%;
+  background-position: 0;
 }
 
 100% {
-  background-position: 0;
+  background-position: 100%;
 }
 `;
 
 const moveLeft = keyframes`
 0% {
-  background-position: 0;
+  background-position: 100%;
 }
 
 100% {
-  background-position: 100%;
+  background-position: 0;
 }
 `;
 
