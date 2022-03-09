@@ -1,5 +1,6 @@
 import * as React from "react";
 import { css, keyframes } from "@emotion/css";
+import Caption from "./caption";
 
 const moveLeft = keyframes`
 0% {
@@ -58,6 +59,11 @@ const GCComp = () => {
           ></video>
         </div>
       </div>
+      <Caption>
+        <h3>GroundControl</h3>
+        <h3>_2020-2021</h3>
+        <h4>Graphic Content, Website Design</h4>
+      </Caption>
       <div
         className={css`
           width: 100vw;

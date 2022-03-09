@@ -1,5 +1,6 @@
 import * as React from "react";
 import { css, keyframes } from "@emotion/css";
+import Caption from "./caption";
 
 const move1 = keyframes`
   0% {
@@ -130,6 +131,11 @@ const SpaceBarComp = () => {
           />
         </div>
       </div>
+      <Caption>
+        <h3>SPACEBAR</h3>
+        <h3>_2022</h3>
+        <h4>Logo, Brand identity</h4>
+      </Caption>
       <div
         className={css`
           position: relative;

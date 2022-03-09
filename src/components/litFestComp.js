@@ -1,5 +1,6 @@
 import * as React from "react";
 import { css } from "@emotion/css";
+import Caption from "./caption";
 
 const LetFestComp = () => {
   return (
@@ -27,6 +28,11 @@ const LetFestComp = () => {
           `}
         />
       </div>
+      <Caption>
+        <h3>LIT FEST 2</h3>
+        <h3>_2020</h3>
+        <h4>Key Visual</h4>
+      </Caption>
       <div
         className={css`
           width: 100vw;

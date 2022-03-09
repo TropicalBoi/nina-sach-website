@@ -1,5 +1,6 @@
 import * as React from "react";
 import { css, keyframes } from "@emotion/css";
+import Caption from "./caption";
 
 const moveRight = keyframes`
 0% {
@@ -47,6 +48,11 @@ const CulturalDistrictComp = () => {
           `}
         />
       </div>
+      <Caption>
+        <h3>CULTURAL DISTRICT</h3>
+        <h3>_2021</h3>
+        <h4>Logo, Key Visual</h4>
+      </Caption>
       <div
         className={css`
           width: 100vw;
@@ -200,7 +206,7 @@ const CulturalDistrictComp = () => {
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/culturalDistrict/iphone_cult1.png"
           className={css`
-            width:  23.85vw;
+            width: 23.85vw;
             height: auto;
             margin: 20vmin 2vw;
           `}

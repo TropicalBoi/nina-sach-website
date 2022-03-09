@@ -1,5 +1,6 @@
 import * as React from "react";
 import { css, keyframes } from "@emotion/css";
+import Caption from "./caption";
 
 const fadeIn = keyframes`
   0%{
@@ -50,6 +51,11 @@ const ResignComp = () => {
           `}
         />
       </div>
+      <Caption>
+        <h3>Resignation or Revolution</h3>
+        <h3>_2022</h3>
+        <h4>Poster, Experimental Typography</h4>
+      </Caption>
       <div
         className={css`
           position: fixed;

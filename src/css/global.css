@@ -9,9 +9,25 @@
 @font-face {
   font-family: "Monument Extended";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
   src: url("../font/MonumentExtended-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Monument Black";
+  font-style: normal;
+  font-weight: 900;
+  text-rendering: optimizeLegibility;
+  src: url("../font/MonumentExtended-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Monument Light";
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  src: url("../font/MonumentExtended-Light.otf") format("opentype");
 }
 
 body {
@@ -38,5 +54,19 @@ a {
 }
 
 p {
+  margin: 0;
+}
+
+h3 {
+  font-family: "Monument Black";
+  font-size: 0.83vw;
+  color: #ffffff;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Monument Light";
+  font-size: 0.83vw;
+  color: #ffffff;
   margin: 0;
 }

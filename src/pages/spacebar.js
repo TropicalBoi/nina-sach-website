@@ -2,7 +2,7 @@ import * as React from "react";
 import Layout from "../components/layout";
 import SpaceBarComp from "../components/spaceBarComp";
 
-const spaceBar = () => {
+const SpaceBar = () => {
   return (
     <Layout>
       <SpaceBarComp />
@@ -10,4 +10,4 @@ const spaceBar = () => {
   );
 };
 
-export default spaceBar;
+export default SpaceBar;

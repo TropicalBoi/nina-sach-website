@@ -2,7 +2,7 @@ import * as React from "react";
 import { css } from "@emotion/css";
 import Caption from "./caption";
 
-const bkkIFComp = () => {
+const ArtMarketComp = () => {
   return (
     <div
       className={css`
@@ -21,17 +21,17 @@ const bkkIFComp = () => {
         `}
       >
         <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/bkkIF/bkkif_logo.jpg"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/artMarket/artmarket_cover1.jpeg"
           className={css`
-            width: 52vw;
+            width: 53.54vw;
             height: auto;
           `}
         />
       </div>
       <Caption>
-        <h3>Bangkok Illustration Fair</h3>
-        <h3>_2020</h3>
-        <h4>Logo, Key Visual</h4>
+        <h3>Happening Art Market</h3>
+        <h3>_2019</h3>
+        <h4>Key Visual, Illustration</h4>
       </Caption>
       <div
         className={css`
@@ -44,11 +44,19 @@ const bkkIFComp = () => {
         `}
       >
         <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/bkkIF/bkkif_posterset.jpg"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/artMarket/squareartmarket_re.jpg"
           className={css`
-            width: 76.71vw;
+            width:  34.16vw;
             height: auto;
-            margin-top: 5vmin;
+            margin: 10vmin 0.5vw;
+          `}
+        />
+        <img
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/artMarket/artmarkettemplate.jpeg"
+          className={css`
+            width: 34.16vw;
+            height: auto;
+            margin: 10vmin 0.5vw;
           `}
         />
       </div>
@@ -63,35 +71,16 @@ const bkkIFComp = () => {
         `}
       >
         <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/bkkIF/bkkif_macbook.gif"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/artMarket/artmarket_igpost.jpg"
           className={css`
-            width: 58.64vw;
-            height: auto;
-            margin-top: 20vmin;
-          `}
-        />
-      </div>
-      <div
-        className={css`
-          width: 100vw;
-          height: fit-content;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: flex-start;
-        `}
-      >
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/bkkIF/bkkif_elements.jpg"
-          className={css`
-            width: 64.94vw;
+            width:   59.79vw;
             height: auto;
             margin: 10vmin 0 20vmin 0;
           `}
-        />
+        />        
       </div>
     </div>
   );
 };
 
-export default bkkIFComp;
+export default ArtMarketComp;

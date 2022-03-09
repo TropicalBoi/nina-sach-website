@@ -2,7 +2,7 @@ import * as React from "react";
 import Layout from "../components/layout";
 import LitFestComp from "../components/litFestComp";
 
-const litFest = () => {
+const LitFest = () => {
   return (
     <Layout>
       <LitFestComp />
@@ -10,4 +10,4 @@ const litFest = () => {
   );
 };
 
-export default litFest;
+export default LitFest;

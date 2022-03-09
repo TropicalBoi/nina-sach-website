@@ -1,5 +1,6 @@
 import * as React from "react";
 import { css, keyframes } from "@emotion/css";
+import Caption from "./caption"
 
 const showUp = keyframes`
 49% {
@@ -52,6 +53,11 @@ const FlowerZineComp = () => {
           `}
         />
       </div>
+      <Caption>
+        <h3>Flowers of Nowhere</h3>
+        <h3>_2022</h3>
+        <h4>Illustration Zine</h4>
+      </Caption>
       <div
         className={css`
           width: 100vw;

@@ -119,6 +119,7 @@ const WorkPage = () => {
         `}
         alt=""
       />
+      <Link to="/avogarde">
       <img
         src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/10_AVOGARDE.jpg"
         className={css`
@@ -130,6 +131,7 @@ const WorkPage = () => {
         `}
         alt=""
       />
+      </Link>
       <Link to="/bkkIF">
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/11_BKKIF.gif"
@@ -222,17 +224,19 @@ const WorkPage = () => {
         `}
         alt=""
       />
-      <img
-        src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/19_ARTMARKET.gif"
-        className={css`
-          position: absolute;
-          width: 43.59vw;
-          height: auto;
-          left: 9.32vw;
-          top: 851.61vmin;
-        `}
-        alt=""
-      />
+      <Link to="/artMarket">
+        <img
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/19_ARTMARKET.gif"
+          className={css`
+            position: absolute;
+            width: 43.59vw;
+            height: auto;
+            left: 9.32vw;
+            top: 851.61vmin;
+          `}
+          alt=""
+        />
+      </Link>
       <img
         src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/20_RISO.jpg"
         className={css`
