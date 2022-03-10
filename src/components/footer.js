@@ -23,6 +23,10 @@ const Footer = () => {
           font-style: normal;
           font-weight: normal;
           font-size: 9px;
+          @media screen and (max-width: 428px) {
+            transform-origin: top right;
+            transform: rotate(90deg);
+          }
         `}
       >
         NINASACH © 2022
