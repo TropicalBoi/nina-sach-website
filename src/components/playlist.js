@@ -69,16 +69,19 @@ const Playlist = () => {
   return (
     <div
       className={css`
-        width: 25.72vw;
-        height: 25.72vw;
-        background-color: black;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
       `}
     >
       <img
         src={playlist01}
         className={css`
           position: absolute;
-          top: 0;
           width: 25.72vw;
           height: auto;
           animation: ${round1} 10s linear infinite;
@@ -89,7 +92,6 @@ const Playlist = () => {
         src={playlist02}
         className={css`
           position: absolute;
-          top: 0;
           width: 25.72vw;
           height: auto;
           animation: ${round2} 10s linear infinite;
@@ -100,7 +102,6 @@ const Playlist = () => {
         src={playlist03}
         className={css`
           position: absolute;
-          top: 0;
           width: 25.72vw;
           height: auto;
           animation: ${round3} 10s linear infinite;
@@ -111,7 +112,6 @@ const Playlist = () => {
         src={playlist04}
         className={css`
           position: absolute;
-          top: 0;
           width: 25.72vw;
           height: auto;
           animation: ${round4} 10s linear infinite;

@@ -42,13 +42,13 @@ const NameCard = () => {
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 80ch;
+            width: 40ch;
             height: fit-content;
             transition: box-shadow 0.5s;
             will-change: transform;
             background-color: #D827BD;
             @media screen and (max-width: 428px) {
-              width: 40ch;
+              width: 30ch;
             }
           `}
           style={{ transform: props.xys.to(trans) }}
