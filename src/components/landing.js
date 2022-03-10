@@ -132,7 +132,7 @@ const Landing = () => {
         <video
           className="video-player"
           height="auto"
-          width="100%"
+          width="70%"
           loop
           muted
           autoPlay
