@@ -48,7 +48,7 @@ const NameCard = () => {
             will-change: transform;
             background-color: #D827BD;
             @media screen and (max-width: 428px) {
-              width: 60ch;
+              width: 40ch;
             }
           `}
           style={{ transform: props.xys.to(trans) }}
