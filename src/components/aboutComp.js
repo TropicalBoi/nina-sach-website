@@ -47,6 +47,9 @@ const NameCard = () => {
             transition: box-shadow 0.5s;
             will-change: transform;
             background-color: #D827BD;
+            @media screen and (max-width: 428px) {
+              width: 60ch;
+            }
           `}
           style={{ transform: props.xys.to(trans) }}
           onMouseLeave={() => set([0, 0, 1])}
