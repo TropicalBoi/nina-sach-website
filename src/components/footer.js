@@ -13,7 +13,7 @@ const Footer = () => {
         flex-direction: row;
         justify-content: flex-end;
         color: #e5e5e5;
-        z-index: 99;
+        z-index: 100;
       `}
     >
       <p

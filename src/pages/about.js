@@ -1,20 +1,19 @@
 import * as React from "react";
 import { css } from "@emotion/css";
-import Layout from "../components/layout";
+import Navbar from "../components/navbar";
+import NameCard from "../components/aboutComp";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
-    <Layout>
-      <div
-        className={css`
-          position: absolute;
-          width: 100vw;
-          height: 100vh;
-          background-color: black;
-          z-index: 100;
-        `}
-      ></div>
-    </Layout>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>NINASACH - /\///\//\ *</title>
+      </Helmet>
+      <Navbar />
+      <NameCard />
+    </>
   );
 };
 
