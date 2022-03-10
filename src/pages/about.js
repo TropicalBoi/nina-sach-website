@@ -1,5 +1,4 @@
 import * as React from "react";
-import { css } from "@emotion/css";
 import Navbar from "../components/navbar";
 import NameCard from "../components/aboutComp";
 import { Helmet } from "react-helmet";

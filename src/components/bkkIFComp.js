@@ -26,6 +26,7 @@ const bkkIFComp = () => {
             width: 52vw;
             height: auto;
           `}
+          alt="BKK IF"
         />
       </div>
       <Caption>
@@ -50,6 +51,7 @@ const bkkIFComp = () => {
             height: auto;
             margin-top: 5vmin;
           `}
+          alt="BKK IF"
         />
       </div>
       <div
@@ -69,6 +71,7 @@ const bkkIFComp = () => {
             height: auto;
             margin-top: 20vmin;
           `}
+          alt="BKK IF"
         />
       </div>
       <div
@@ -88,6 +91,7 @@ const bkkIFComp = () => {
             height: auto;
             margin: 10vmin 0 20vmin 0;
           `}
+          alt="BKK IF"
         />
       </div>
     </div>

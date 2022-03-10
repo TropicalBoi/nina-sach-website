@@ -37,6 +37,7 @@ const GCComp = () => {
             height: auto;
             margin-right: 3vw;
           `}
+          alt="GC logo"
         />
         <div
           className={css`
@@ -81,6 +82,7 @@ const GCComp = () => {
             height: auto;
             margin: 10vmin 0 20vmin 0;
           `}
+          alt="GC logo"
         />
       </div>
       <div

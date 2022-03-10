@@ -26,6 +26,7 @@ const LetFestComp = () => {
             width: 57.91vw;
             height: auto;
           `}
+          alt="Lit Fest2"
         />
       </div>
       <Caption>
@@ -50,6 +51,7 @@ const LetFestComp = () => {
             height: auto;
             margin-top: 20vmin;
           `}
+          alt="Lit Fest2"
         />
       </div>
       <div
@@ -69,6 +71,7 @@ const LetFestComp = () => {
             height: auto;
             margin-top: 20vmin;
           `}
+          alt="Lit Fest2"
         />
       </div>
       <div
@@ -88,6 +91,7 @@ const LetFestComp = () => {
             height: auto;
             margin-top: 10vmin;
           `}
+          alt="Lit Fest2"
         />
       </div>
       <div
@@ -107,6 +111,7 @@ const LetFestComp = () => {
             height: auto;
             margin: 10vmin 2vw;
           `}
+          alt="Lit Fest2"
         />
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/litFest/KV-S-FB-G-02.jpeg"
@@ -115,6 +120,7 @@ const LetFestComp = () => {
             height: auto;
             margin: 10vmin 2vw 0 2vw;
           `}
+          alt="Lit Fest2"
         />
       </div>
       <div
@@ -134,6 +140,7 @@ const LetFestComp = () => {
             height: auto;
             margin: 10vmin 1vw 20vmin 1vw;
           `}
+          alt="Lit Fest2"
         />
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/litFest/IMG_2.jpg"
@@ -142,6 +149,7 @@ const LetFestComp = () => {
             height: auto;
             margin: 10vmin 1vw 20vmin 1vw;
           `}
+          alt="Lit Fest2"
         />
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/litFest/IMG_3.jpeg"
@@ -150,6 +158,7 @@ const LetFestComp = () => {
             height: auto;
             margin: 10vmin 1vw 20vmin 1vw;
           `}
+          alt="Lit Fest2"
         />
       </div>
     </div>

@@ -38,6 +38,7 @@ const FlowerZineComp = () => {
             width: 55.41vw;
             height: auto;
           `}
+          alt="Flower Zine"
         />
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/smol2.jpg"
@@ -51,6 +52,7 @@ const FlowerZineComp = () => {
             animation-fill-mode: forwards;
             opacity: 0;
           `}
+          alt="Flower Zine"
         />
       </div>
       <Caption>
@@ -75,6 +77,7 @@ const FlowerZineComp = () => {
             height: auto;
             margin: 20vmin 8.125vw 0 0;
           `}
+          alt="Flower Zine"
         />
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/flozine_2_re.jpg"
@@ -83,6 +86,7 @@ const FlowerZineComp = () => {
             height: auto;
             margin: 20vmin 0 0 0;
           `}
+          alt="Flower Zine"
         />
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/smol3.jpg"
@@ -94,6 +98,7 @@ const FlowerZineComp = () => {
             margin-top: 10vmin;
             transform: rotate(-8.06deg);
           `}
+          alt="Flower Zine"
         />
       </div>
       <div
@@ -126,6 +131,7 @@ const FlowerZineComp = () => {
               height: auto;
               transform: rotate(9.12deg);
             `}
+            alt="Flower Zine"
           />
           <img
             src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/flozine_3_re.jpg"
@@ -133,6 +139,7 @@ const FlowerZineComp = () => {
               width: 100%;
               height: auto;
             `}
+            alt="Flower Zine"
           />
         </div>
         <div
@@ -152,6 +159,7 @@ const FlowerZineComp = () => {
               width: 100%;
               height: auto;
             `}
+            alt="Flower Zine"
           />
           <img
             src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/smol4.jpg"
@@ -162,6 +170,7 @@ const FlowerZineComp = () => {
               margin-left: -10vw;
               transform: rotate(-13.26deg);
             `}
+            alt="Flower Zine"
           />
         </div>
       </div>

@@ -26,6 +26,7 @@ const ArtMarketComp = () => {
             width: 53.54vw;
             height: auto;
           `}
+          alt="Art Market"
         />
       </div>
       <Caption>
@@ -50,6 +51,7 @@ const ArtMarketComp = () => {
             height: auto;
             margin: 10vmin 0.5vw;
           `}
+          alt="Art Market"
         />
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/artMarket/artmarkettemplate.jpeg"
@@ -58,6 +60,7 @@ const ArtMarketComp = () => {
             height: auto;
             margin: 10vmin 0.5vw;
           `}
+          alt="Art Market"
         />
       </div>
       <div
@@ -77,6 +80,7 @@ const ArtMarketComp = () => {
             height: auto;
             margin: 10vmin 0 20vmin 0;
           `}
+          alt="Art Market"
         />        
       </div>
     </div>

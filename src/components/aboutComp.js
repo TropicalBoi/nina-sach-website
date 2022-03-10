@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useRef, useState } from "react";
 import { useSpring, animated } from "@react-spring/web";
-import { css, keyframes } from "@emotion/css";
+import { css } from "@emotion/css";
 
 const calc = (x, y, rect) => [
   -(y - rect.top - rect.height / 2) / 5,

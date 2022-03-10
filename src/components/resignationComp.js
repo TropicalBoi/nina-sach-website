@@ -49,6 +49,7 @@ const ResignComp = () => {
             width: 52.65vw;
             height: auto;
           `}
+          alt="RESIGNATION"
         />
       </div>
       <Caption>
@@ -76,6 +77,7 @@ const ResignComp = () => {
             height: auto;
             animation: ${rotate} 10s linear infinite;
           `}
+          alt="RESIGNATION"
         />
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/resignation/txt03.png"
@@ -84,6 +86,7 @@ const ResignComp = () => {
             width: 100%;
             height: auto;
           `}
+          alt="RESIGNATION"
         />
       </div>
       <div
@@ -113,6 +116,7 @@ const ResignComp = () => {
               height: auto;
               animation: ${fadeIn} 5s linear infinite alternate;
             `}
+            alt="RESIGNATION"
           />
         </div>
       </div>
@@ -133,6 +137,7 @@ const ResignComp = () => {
             height: auto;
             margin: 5vmin 0 20vmin 0;
           `}
+          alt="RESIGNATION"
         />
       </div>
     </div>

@@ -26,6 +26,7 @@ const AvogardeComp = () => {
             width: 29.06vw;
             height: auto;
           `}
+          alt="Avogarde"
         />
       </div>
       <Caption>
@@ -51,6 +52,7 @@ const AvogardeComp = () => {
             height: auto;
             margin-right: 6.25vw;
           `}
+          alt="Avogarde"
         />
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/avogarde/AVOGARDE-Poster.jpg"
@@ -58,6 +60,7 @@ const AvogardeComp = () => {
             width: 30.10vw;
             height: auto;
           `}
+          alt="Avogarde"
         />
       </div>
     </div>

@@ -46,6 +46,7 @@ const CulturalDistrictComp = () => {
             width: 60.67vw;
             height: auto;
           `}
+          alt="Cultural District"
         />
       </div>
       <Caption>
@@ -88,6 +89,7 @@ const CulturalDistrictComp = () => {
             width: 12.86vw;
             height: auto;
           `}
+          alt="Cultural District"
         />
       </div>
       <div
@@ -106,6 +108,7 @@ const CulturalDistrictComp = () => {
             width: 79.84vw;
             height: auto;
           `}
+          alt="Cultural District"
         />
       </div>
       <div
@@ -156,6 +159,7 @@ const CulturalDistrictComp = () => {
             height: auto;
             margin-top: 20vmin;
           `}
+          alt="Cultural District"
         />
       </div>
       <div
@@ -175,6 +179,7 @@ const CulturalDistrictComp = () => {
             height: auto;
             margin-top: 20vmin;
           `}
+          alt="Cultural District"
         />
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/culturalDistrict/cd-poster2.jpg"
@@ -183,6 +188,7 @@ const CulturalDistrictComp = () => {
             height: auto;
             margin-top: 20vmin;
           `}
+          alt="Cultural District"
         />
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/culturalDistrict/cd-poster3.jpg"
@@ -191,6 +197,7 @@ const CulturalDistrictComp = () => {
             height: auto;
             margin-top: 20vmin;
           `}
+          alt="Cultural District"
         />
       </div>
       <div
@@ -210,6 +217,7 @@ const CulturalDistrictComp = () => {
             height: auto;
             margin: 20vmin 2vw;
           `}
+          alt="Cultural District"
         />
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/culturalDistrict/iphone_cult2.png"
@@ -218,6 +226,7 @@ const CulturalDistrictComp = () => {
             height: auto;
             margin: 20vmin 2vw;
           `}
+          alt="Cultural District"
         />
       </div>
     </div>
