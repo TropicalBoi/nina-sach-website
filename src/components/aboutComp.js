@@ -42,7 +42,7 @@ const NameCard = () => {
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 40ch;
+            width: 70ch;
             height: fit-content;
             transition: box-shadow 0.5s;
             will-change: transform;
