@@ -31,15 +31,18 @@ const Navbar = () => {
       <Link
         className={css`
           font-family: RuneScape-Quill-Caps;
-          font-size: 38px;
+          font-size: 60px;
           position: relative;
           margin: 0 0 0 1.5vw;
           color: #ffffff;
           line-height: 20px;
+          @media screen and (max-width: 428px) {
+            font-size: 40px;
+          }
         `}
         to="/works"
       >
-        <p>WORKS</p>
+        <p>works</p>
       </Link>
       <Link to="/" className={css`
             width: fit-content;
@@ -61,15 +64,18 @@ const Navbar = () => {
       <Link
         className={css`
           font-family: RuneScape-Quill-Caps;
-          font-size: 38px;
+          font-size: 60px;
           position: relative;
           margin: 0 1.5vw 0 0;
           color: #ffffff;
           line-height: 20px;
+          @media screen and (max-width: 428px) {
+            font-size: 40px;
+          }
         `}
         to="/about"
       >
-        <p>ABOUT</p>
+        <p>about</p>
       </Link>
     </nav>
   );

@@ -1,7 +1,20 @@
 import * as React from "react";
 import { useRef, useState } from "react";
 import { useSpring, animated } from "@react-spring/web";
-import { css } from "@emotion/css";
+import { css, keyframes } from "@emotion/css";
+import Caption from "./caption";
+
+const gradient = keyframes`
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+`;
 
 const calc = (x, y, rect) => [
   -(y - rect.top - rect.height / 2) / 5,
@@ -46,7 +59,9 @@ const NameCard = () => {
             height: fit-content;
             transition: box-shadow 0.5s;
             will-change: transform;
-            background-color: #D827BD;
+            background: linear-gradient(-45deg, #D827BD, #90B49B, #A385D6, #AFAFAF);
+            background-size: 400% 400%;
+            animation: ${gradient} 15s ease infinite;
             @media screen and (max-width: 428px) {
               width: 30ch;
             }
@@ -68,6 +83,10 @@ const NameCard = () => {
           />
         </animated.div>
       </div>
+      <Caption>
+        <h4>Design by Nina Sach</h4>
+        <h4>Coded by Tropical Tech Tribe</h4>
+      </Caption>
     </div>
   );
 };

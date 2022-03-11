@@ -50,7 +50,7 @@ code {
 
 a {
   text-decoration: none;
-  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=141073), auto;
+  cursor: url("../images/clickCursor.png"), auto;
 }
 
 p {

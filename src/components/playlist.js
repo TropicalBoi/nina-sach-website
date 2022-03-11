@@ -85,6 +85,9 @@ const Playlist = () => {
           width: 25.72vw;
           height: auto;
           animation: ${round1} 10s linear infinite;
+          @media screen and (max-width: 428px) {
+            width: 50vw;
+          }
         `}
         alt=""
       />
@@ -95,6 +98,9 @@ const Playlist = () => {
           width: 25.72vw;
           height: auto;
           animation: ${round2} 10s linear infinite;
+          @media screen and (max-width: 428px) {
+            width: 50vw;
+          }
         `}
         alt=""
       />
@@ -105,6 +111,9 @@ const Playlist = () => {
           width: 25.72vw;
           height: auto;
           animation: ${round3} 10s linear infinite;
+          @media screen and (max-width: 428px) {
+            width: 50vw;
+          }
         `}
         alt=""
       />
@@ -115,6 +124,9 @@ const Playlist = () => {
           width: 25.72vw;
           height: auto;
           animation: ${round4} 10s linear infinite;
+          @media screen and (max-width: 428px) {
+            width: 50vw;
+          }
         `}
         alt=""
       />
