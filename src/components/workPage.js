@@ -214,58 +214,66 @@ const WorkPage = () => {
           `}
           alt=""
         />
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/15_Femme.jpg"
-          className={css`
-            width: 35.31vw;
-            height: auto;
-            margin: 10vmin 4.3vw;
-            @media screen and (max-width: 428px) {
-              width: 80%;
-            }
-          `}
-          alt=""
-        />
+        <Link className="menuLinkCenter " to="/femme">
+          <img
+            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/15_Femme.jpg"
+            className={css`
+              width: 35.31vw;
+              height: auto;
+              margin: 10vmin 4.3vw;
+              @media screen and (max-width: 428px) {
+                width: 80%;
+              }
+            `}
+            alt=""
+          />
+        </Link>
       </div>
       <div className="worksMenu">
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/16_Sunset.jpg"
-          className={css`
-            width: 33.02vw;
-            height: auto;
-            margin: 10vmin 4.3vw;
-            @media screen and (max-width: 428px) {
-              width: 80%;
-            }
-          `}
-          alt=""
-        />
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/17_production.jpg"
-          className={css`
-            width: 33.38vw;
-            height: auto;
-            margin: 10vmin 4.3vw;
-            @media screen and (max-width: 428px) {
-              width: 80%;
-            }
-          `}
-          alt=""
-        />
+        <Link className="menuLinkCenter " to="/sunrise-sunset">
+          <img
+            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/16_Sunset.jpg"
+            className={css`
+              width: 33.02vw;
+              height: auto;
+              margin: 10vmin 4.3vw;
+              @media screen and (max-width: 428px) {
+                width: 80%;
+              }
+            `}
+            alt=""
+          />
+        </Link>
+        <Link className="menuLinkCenter " to="/production">
+          <img
+            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/17_production.jpg"
+            className={css`
+              width: 33.38vw;
+              height: auto;
+              margin: 10vmin 4.3vw;
+              @media screen and (max-width: 428px) {
+                width: 80%;
+              }
+            `}
+            alt=""
+          />
+        </Link>
       </div>
       <div className="worksMenu">
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/18_HIDDENTRACKSCOVCOV.gif"
-          className={css`
-            width: 84.37vw;
-            height: auto;
-            margin: 10vmin 8.6vw;
-            @media screen and (max-width: 428px) {
-              width: 80%;
-            }
-          `}
-          alt=""
-        />
+        <Link className="menuLinkCenter " to="/hiddenTrack">
+          <img
+            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/18_HIDDENTRACKSCOVCOV.gif"
+            className={css`
+              width: 84.37vw;
+              height: auto;
+              margin: 10vmin 8.6vw;
+              @media screen and (max-width: 428px) {
+                width: 80%;
+              }
+            `}
+            alt=""
+          />
+        </Link>
       </div>
       <div className="worksMenu">
         <Link className="menuLinkCenter " to="/artMarket">
@@ -282,18 +290,20 @@ const WorkPage = () => {
             alt=""
           />
         </Link>
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/20_RISO.jpg"
-          className={css`
-            width: 28.38vw;
-            height: auto;
-            margin: 10vmin 4.3vw;
-            @media screen and (max-width: 428px) {
-              width: 80%;
-            }
-          `}
-          alt=""
-        />
+        <Link className="menuLinkCenter " to="/riso">
+          <img
+            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/20_RISO.jpg"
+            className={css`
+              width: 28.38vw;
+              height: auto;
+              margin: 10vmin 4.3vw;
+              @media screen and (max-width: 428px) {
+                width: 80%;
+              }
+            `}
+            alt=""
+          />
+        </Link>
       </div>
       <div className="worksMenu">
         <img
@@ -334,18 +344,20 @@ const WorkPage = () => {
           `}
           alt=""
         />
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/24_TOXIC.gif"
-          className={css`
-            width: 30vw;
-            height: auto;
-            margin: 10vmin 4.3vw;
-            @media screen and (max-width: 428px) {
-              width: 80%;
-            }
-          `}
-          alt=""
-        />
+        <Link className="menuLinkCenter " to="/toxic">
+          <img
+            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/24_TOXIC.gif"
+            className={css`
+              width: 30vw;
+              height: auto;
+              margin: 10vmin 4.3vw;
+              @media screen and (max-width: 428px) {
+                width: 80%;
+              }
+            `}
+            alt=""
+          />
+        </Link>
       </div>
     </div>
   );

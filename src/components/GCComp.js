@@ -113,7 +113,10 @@ const GCComp = () => {
           height: 52.02vmin;
           background-image: url("https://nina-website.s3.ap-southeast-1.amazonaws.com/GroundControl/gc_content_cover.jpg");
           background-repeat: repeat;
-          animation: ${moveLeft} 20s linear infinite;
+          animation: ${moveLeft} 40s linear infinite;
+          @media screen and (max-width: 428px) {
+            animation: ${moveLeft} 60s linear infinite;
+          }
           background-size: auto 100%;
           margin: 20vmin 0;
         `}

@@ -13,7 +13,7 @@ const bkkIFComp = () => {
       <div
         className={css`
           width: 100vw;
-          height: 100vmin;
+          height: 100vh;
           display: flex;
           flex-direction: row;
           justify-content: center;
@@ -25,6 +25,9 @@ const bkkIFComp = () => {
           className={css`
             width: 52vw;
             height: auto;
+            @media screen and (max-width: 428px) {
+              width: 80%;
+            }
           `}
           alt="BKK IF"
         />
@@ -50,6 +53,9 @@ const bkkIFComp = () => {
             width: 76.71vw;
             height: auto;
             margin-top: 5vmin;
+            @media screen and (max-width: 428px) {
+              width: 100%;
+            }
           `}
           alt="BKK IF"
         />
@@ -70,6 +76,9 @@ const bkkIFComp = () => {
             width: 58.64vw;
             height: auto;
             margin-top: 20vmin;
+            @media screen and (max-width: 428px) {
+              width: 80%;
+            }
           `}
           alt="BKK IF"
         />
@@ -90,6 +99,9 @@ const bkkIFComp = () => {
             width: 64.94vw;
             height: auto;
             margin: 10vmin 0 20vmin 0;
+            @media screen and (max-width: 428px) {
+              width: 80%;
+            }
           `}
           alt="BKK IF"
         />

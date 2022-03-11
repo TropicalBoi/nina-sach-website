@@ -2,7 +2,7 @@ import * as React from "react";
 import { css } from "@emotion/css";
 import Caption from "./caption";
 
-const AvogardeComp = () => {
+const RisoComp = () => {
   return (
     <div
       className={css`
@@ -21,21 +21,22 @@ const AvogardeComp = () => {
         `}
       >
         <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/avogarde/AVOGARDE_LOGO.jpg"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/riso/windmills.jpeg"
           className={css`
-            width: 29.06vw;
+            width:  44.11vw;
             height: auto;
             @media screen and (max-width: 428px) {
-              width:  80%;
+              width: 80%;
             }
           `}
-          alt="Avogarde"
+          alt="Windmills of your mind"
         />
       </div>
+
       <Caption>
-        <h3>AVOGARDE</h3>
-        <h3>_2020</h3>
-        <h4>Logo, Poster Design</h4>
+        <h3>Windmills of your mind</h3>
+        <h3>_2019</h3>
+        <h4>Riso prints</h4>
       </Caption>
       <div
         className={css`
@@ -45,39 +46,40 @@ const AvogardeComp = () => {
           flex-direction: row;
           justify-content: center;
           align-items: center;
-          margin: 10vmin 0 20vmin 0;
           @media screen and (max-width: 428px) {
             flex-direction: column;
           }
         `}
       >
         <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/avogarde/AVOGARDE_COVERFB.jpg"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/riso/blue1.jpeg"
           className={css`
-            width:  46.66vw;
+            width: 62.23vw;
             height: auto;
-            margin-right: 6.25vw;
+            margin: 10vmin 0 20vmin 0;
             @media screen and (max-width: 428px) {
-              width:  80%;
-              margin: 5vw 0;
+              width: 70%;
+              margin: 10vmin 0 1vmin 0;
             }
           `}
-          alt="Avogarde"
+          alt="blue"
         />
         <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/avogarde/AVOGARDE-Poster.jpg"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/riso/black2.jpeg"
           className={css`
-            width: 30.10vw;
+            width: 31.25vw;
             height: auto;
+            margin: 10vmin 0 20vmin 0;
             @media screen and (max-width: 428px) {
-              width:  80%;
+              width: 70%;
+              margin: 1vmin 0 20vmin 0;
             }
           `}
-          alt="Avogarde"
+          alt="black"
         />
       </div>
     </div>
   );
 };
 
-export default AvogardeComp;
+export default RisoComp;

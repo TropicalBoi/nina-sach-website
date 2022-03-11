@@ -1,6 +1,6 @@
 import * as React from "react";
 import { css, keyframes } from "@emotion/css";
-import Caption from "./caption"
+import Caption from "./caption";
 
 const showUp = keyframes`
 49% {
@@ -25,35 +25,53 @@ const FlowerZineComp = () => {
       <div
         className={css`
           width: 100vw;
-          height: 100vmin;
+          height: 100vh;
           display: flex;
           flex-direction: row;
           justify-content: center;
           align-items: center;
         `}
       >
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/flozine_cover_re.jpg"
+        <div
           className={css`
-            width: 55.41vw;
-            height: auto;
+            width: 25.57vw;
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 0;
+            @media screen and (max-width: 428px) {
+              width: 70%;
+            }
           `}
-          alt="Flower Zine"
-        />
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/smol2.jpg"
-          className={css`
-            position: absolute;
-            width: 8.43vw;
-            height: auto;
-            left: 57.29vw;
-            top: 40.79vmin;
-            animation: ${showUp} 2s linear 1s;
-            animation-fill-mode: forwards;
-            opacity: 0;
-          `}
-          alt="Flower Zine"
-        />
+        >
+          <img
+            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/flozine_cover.png"
+            className={css`
+              width: 100%;
+              height: auto;
+            `}
+            alt="Flower Zine"
+          />
+          <img
+            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/smol2.jpg"
+            className={css`
+              position: absolute;
+              width: 8.43vw;
+              height: auto;
+              animation: ${showUp} 2s linear 1s;
+              animation-fill-mode: forwards;
+              opacity: 0;
+              margin-left: 3vw;
+              @media screen and (max-width: 428px) {
+                width: 20%;
+                margin-left: 8vw;
+              }
+            `}
+            alt="Flower Zine"
+          />
+        </div>
       </div>
       <Caption>
         <h3>Flowers of Nowhere</h3>
@@ -68,37 +86,32 @@ const FlowerZineComp = () => {
           flex-direction: row;
           justify-content: center;
           align-items: center;
+          @media screen and (max-width: 428px) {
+            flex-direction: column;
+          }
         `}
       >
         <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/flozine_1_re.jpg"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/flozine_1.jpg"
           className={css`
-            width: 45.1vw;
+            width: 41.66vw;
             height: auto;
-            margin: 20vmin 8.125vw 0 0;
+            @media screen and (max-width: 428px) {
+              width: 80%;
+            }
           `}
-          alt="Flower Zine"
+          alt="blue"
         />
         <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/flozine_2_re.jpg"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/flozine_2.png"
           className={css`
-            width: 31.51vw;
+            width: 39.06vw;
             height: auto;
-            margin: 20vmin 0 0 0;
+            @media screen and (max-width: 428px) {
+              width: 65%;
+            }
           `}
-          alt="Flower Zine"
-        />
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/smol3.jpg"
-          className={css`
-            position: absolute;
-            width: 6.14vw;
-            height: auto;
-            margin-left: 14vw;
-            margin-top: 10vmin;
-            transform: rotate(-8.06deg);
-          `}
-          alt="Flower Zine"
+          alt="black"
         />
       </div>
       <div
@@ -107,72 +120,36 @@ const FlowerZineComp = () => {
           height: fit-content;
           display: flex;
           flex-direction: row;
-          justify-content: flex-start;
-          align-items: flex-start;
-          margin-bottom: 20vmin;
+          justify-content: center;
+          align-items: center;
+          @media screen and (max-width: 428px) {
+            flex-direction: column;
+          }
         `}
       >
-        <div
+        <img
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/flozine_3.png"
           className={css`
-            width: 31.51vw;
-            height: fit-content;
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            align-items: flex-start;
-            margin: auto;
+            width: 39.06vw;
+            height: auto;
+            @media screen and (max-width: 428px) {
+              width: 75%;
+            }
           `}
-        >
-          <img
-            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/smol1.jpg"
-            className={css`
-              position: absolute;
-              width: 6.14vw;
-              height: auto;
-              transform: rotate(9.12deg);
-            `}
-            alt="Flower Zine"
-          />
-          <img
-            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/flozine_3_re.jpg"
-            className={css`
-              width: 100%;
-              height: auto;
-            `}
-            alt="Flower Zine"
-          />
-        </div>
-        <div
+          alt="black"
+        />
+        <img
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/flozine_4.png"
           className={css`
-            width: 45.1vw;
-            height: fit-content;
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            align-items: flex-end;
-            margin: 0 auto;
+            width: 41.66vw;
+            height: auto;
+            margin: 10vmin 0 20vmin 0;
+            @media screen and (max-width: 428px) {
+              width: 80%;
+            }
           `}
-        >
-          <img
-            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/flozine_4_re.jpg"
-            className={css`
-              width: 100%;
-              height: auto;
-            `}
-            alt="Flower Zine"
-          />
-          <img
-            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/FlowerZine/smol4.jpg"
-            className={css`
-              position: absolute;
-              width: 6.14vw;
-              height: auto;
-              margin-left: -10vw;
-              transform: rotate(-13.26deg);
-            `}
-            alt="Flower Zine"
-          />
-        </div>
+          alt="blue"
+        />
       </div>
     </div>
   );

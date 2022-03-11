@@ -13,7 +13,7 @@ const LetFestComp = () => {
       <div
         className={css`
           width: 100vw;
-          height: 100vmin;
+          height: 100vh;
           display: flex;
           flex-direction: row;
           justify-content: center;
@@ -25,6 +25,9 @@ const LetFestComp = () => {
           className={css`
             width: 57.91vw;
             height: auto;
+            @media screen and (max-width: 428px) {
+              width: 80%
+            }
           `}
           alt="Lit Fest2"
         />
@@ -50,6 +53,9 @@ const LetFestComp = () => {
             width: 53.54vw;
             height: auto;
             margin-top: 20vmin;
+            @media screen and (max-width: 428px) {
+              width: 80%
+            }
           `}
           alt="Lit Fest2"
         />
@@ -70,6 +76,9 @@ const LetFestComp = () => {
             width: 70.98vw;
             height: auto;
             margin-top: 20vmin;
+            @media screen and (max-width: 428px) {
+              width: 90%
+            }
           `}
           alt="Lit Fest2"
         />
@@ -90,6 +99,9 @@ const LetFestComp = () => {
             width: 70.98vw;
             height: auto;
             margin-top: 10vmin;
+            @media screen and (max-width: 428px) {
+              width: 90%
+            }
           `}
           alt="Lit Fest2"
         />
@@ -130,7 +142,10 @@ const LetFestComp = () => {
           display: flex;
           flex-direction: row;
           justify-content: center;
-          align-items: flex-start;
+          align-items: center;
+          @media screen and (max-width: 428px) {
+            flex-direction: column;
+          }
         `}
       >
         <img
@@ -139,6 +154,10 @@ const LetFestComp = () => {
             width:  25.15vw;
             height: auto;
             margin: 10vmin 1vw 20vmin 1vw;
+            @media screen and (max-width: 428px) {
+              width: 70%;
+              margin: 10vmin 1vw 1vw 1vw;
+            }
           `}
           alt="Lit Fest2"
         />
@@ -148,6 +167,10 @@ const LetFestComp = () => {
             width: 25.15vw;
             height: auto;
             margin: 10vmin 1vw 20vmin 1vw;
+            @media screen and (max-width: 428px) {
+              width: 70%;
+              margin: 1vw;
+            }
           `}
           alt="Lit Fest2"
         />
@@ -157,6 +180,10 @@ const LetFestComp = () => {
             width: 25.15vw;
             height: auto;
             margin: 10vmin 1vw 20vmin 1vw;
+            @media screen and (max-width: 428px) {
+              width: 70%;
+              margin: 1vw 1vw 20vmin 1vw;
+            }
           `}
           alt="Lit Fest2"
         />

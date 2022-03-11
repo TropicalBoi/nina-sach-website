@@ -13,7 +13,7 @@ const ArtMarketComp = () => {
       <div
         className={css`
           width: 100vw;
-          height: 100vmin;
+          height: 100vh;
           display: flex;
           flex-direction: row;
           justify-content: center;
@@ -25,6 +25,9 @@ const ArtMarketComp = () => {
           className={css`
             width: 53.54vw;
             height: auto;
+            @media screen and (max-width: 428px) {
+              width: 80%
+            }
           `}
           alt="Art Market"
         />
@@ -50,6 +53,9 @@ const ArtMarketComp = () => {
             width:  34.16vw;
             height: auto;
             margin: 10vmin 0.5vw;
+            @media screen and (max-width: 428px) {
+              width: 40vw;
+            }
           `}
           alt="Art Market"
         />
@@ -59,6 +65,9 @@ const ArtMarketComp = () => {
             width: 34.16vw;
             height: auto;
             margin: 10vmin 0.5vw;
+            @media screen and (max-width: 428px) {
+              width: 40vw;
+            }
           `}
           alt="Art Market"
         />
@@ -79,6 +88,9 @@ const ArtMarketComp = () => {
             width:   59.79vw;
             height: auto;
             margin: 10vmin 0 20vmin 0;
+            @media screen and (max-width: 428px) {
+              width: 80%
+            }
           `}
           alt="Art Market"
         />        

@@ -2,7 +2,7 @@ import * as React from "react";
 import { css } from "@emotion/css";
 import Caption from "./caption";
 
-const AvogardeComp = () => {
+const HiddenTrackComp = () => {
   return (
     <div
       className={css`
@@ -18,24 +18,39 @@ const AvogardeComp = () => {
           flex-direction: row;
           justify-content: center;
           align-items: center;
+          @media screen and (max-width: 428px) {
+            flex-direction: column;
+          }
         `}
       >
         <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/avogarde/AVOGARDE_LOGO.jpg"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/hiddenTrack/hidden-front.jpg"
           className={css`
-            width: 29.06vw;
+            width: 31.25vw;
             height: auto;
             @media screen and (max-width: 428px) {
-              width:  80%;
+              width: 80%;
             }
           `}
-          alt="Avogarde"
+          alt="Front cover"
+        />
+        <img
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/hiddenTrack/hidden-back.jpeg"
+          className={css`
+            width: 31.25vw;
+            height: auto;
+            @media screen and (max-width: 428px) {
+              width: 80%;
+            }
+          `}
+          alt="Back cover"
         />
       </div>
+
       <Caption>
-        <h3>AVOGARDE</h3>
-        <h3>_2020</h3>
-        <h4>Logo, Poster Design</h4>
+        <h3>Happening Hidden Tracks</h3>
+        <h3>_2019</h3>
+        <h4>Magazine Cover</h4>
       </Caption>
       <div
         className={css`
@@ -45,39 +60,23 @@ const AvogardeComp = () => {
           flex-direction: row;
           justify-content: center;
           align-items: center;
-          margin: 10vmin 0 20vmin 0;
-          @media screen and (max-width: 428px) {
-            flex-direction: column;
-          }
         `}
       >
         <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/avogarde/AVOGARDE_COVERFB.jpg"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/hiddenTrack/hidden-banner.jpeg"
           className={css`
-            width:  46.66vw;
+            width: 62.23vw;
             height: auto;
-            margin-right: 6.25vw;
+            margin: 10vmin 0 20vmin 0;
             @media screen and (max-width: 428px) {
-              width:  80%;
-              margin: 5vw 0;
+              width: 90%;
             }
           `}
-          alt="Avogarde"
-        />
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/avogarde/AVOGARDE-Poster.jpg"
-          className={css`
-            width: 30.10vw;
-            height: auto;
-            @media screen and (max-width: 428px) {
-              width:  80%;
-            }
-          `}
-          alt="Avogarde"
+          alt="Hidden track banner"
         />
       </div>
     </div>
   );
 };
 
-export default AvogardeComp;
+export default HiddenTrackComp;
