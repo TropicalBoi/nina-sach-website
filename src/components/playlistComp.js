@@ -44,7 +44,7 @@ const PlaylistComp = () => {
           margin: 10vmin 0 10vmin 0;
           @media screen and (max-width: 428px) {
             flex-direction: column;
-            margin: 10vmin 0 20vmin 0;
+            margin: 10vmin 0 20vh 0;
           }
         `}
       >

@@ -95,6 +95,7 @@ const WorkPage = () => {
               margin: 10vmin 4.3vw;
               @media screen and (max-width: 428px) {
                 width: 80%;
+                margin: 25vmin 0;
               }
             `}
           >
