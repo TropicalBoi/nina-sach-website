@@ -2,7 +2,7 @@ import * as React from "react";
 import { css } from "@emotion/css";
 import Caption from "./caption";
 
-const RisoComp = () => {
+const JamMagComp = () => {
   return (
     <div
       className={css`
@@ -21,15 +21,15 @@ const RisoComp = () => {
         `}
       >
         <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/riso/windmills.jpeg"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/jamMag/thejam_mag.jpg"
           className={css`
-            width:  44.11vw;
+            width:  33.75vw;
             height: auto;
             @media screen and (max-width: 428px) {
               width: 80%;
             }
           `}
-          alt="Windmills of your mind"
+          alt="the jam mag"
         />
       </div>
 
@@ -52,34 +52,20 @@ const RisoComp = () => {
         `}
       >
         <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/riso/blue1.jpeg"
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/jamMag/jam_illus.jpeg"
           className={css`
             width: 31.25vw;
             height: auto;
-            margin: 10vmin 1vw 20vmin 0;
+            margin: 0 0 20vmin 0;
             @media screen and (max-width: 428px) {
-              width: 70%;
-              margin: 10vmin 0 1vmin 0;
+              width: 55%;
             }
           `}
-          alt="blue"
-        />
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/riso/black2.jpeg"
-          className={css`
-            width: 31.25vw;
-            height: auto;
-            margin: 10vmin 0 20vmin 0;
-            @media screen and (max-width: 428px) {
-              width: 70%;
-              margin: 1vmin 0 20vmin 0;
-            }
-          `}
-          alt="black"
+          alt="the jam mag"
         />
       </div>
     </div>
   );
 };
 
-export default RisoComp;
+export default JamMagComp;

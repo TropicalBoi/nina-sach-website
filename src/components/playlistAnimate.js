@@ -65,7 +65,7 @@ const round4 = keyframes`
   }
 `;
 
-const Playlist = () => {
+const PlaylistAnimate = () => {
   return (
     <div
       className={css`
@@ -134,4 +134,4 @@ const Playlist = () => {
   );
 };
 
-export default Playlist;
+export default PlaylistAnimate;

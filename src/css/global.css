@@ -40,7 +40,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000000;
-  cursor: url("../images/cursor.png"), auto;
+  /* cursor: url("../images/cursor.png"), auto; */
+  cursor: default;
 }
 
 code {
@@ -50,7 +51,8 @@ code {
 
 a {
   text-decoration: none;
-  cursor: url("../images/clickCursor.png"), auto;
+  /* cursor: url("../images/clickCursor.png"), auto; */
+  cursor: pointer;
 }
 
 p {
