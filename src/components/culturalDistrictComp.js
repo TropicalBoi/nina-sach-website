@@ -58,7 +58,6 @@ const fadeUp2 = keyframes`
 }
 `;
 
-
 const CulturalDistrictComp = () => {
   return (
     <div
@@ -253,8 +252,8 @@ const CulturalDistrictComp = () => {
             width: 26.04vw;
             height: auto;
             margin-top: 20vmin;
-            opacity: 0;
             @media screen and (max-width: 428px) {
+              opacity: 0;
               position: absolute;
               width: 90%;
               z-index: 2;
@@ -269,8 +268,8 @@ const CulturalDistrictComp = () => {
             width: 26.04vw;
             height: auto;
             margin-top: 20vmin;
-            opacity: 0;
             @media screen and (max-width: 428px) {
+              opacity: 0;
               position: absolute;
               width: 90%;
               z-index: 3;
