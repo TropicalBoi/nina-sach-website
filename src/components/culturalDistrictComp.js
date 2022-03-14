@@ -268,7 +268,7 @@ const CulturalDistrictComp = () => {
             width: 26.04vw;
             height: auto;
             margin-top: 20vmin;
-            @media screen and (max-width: 428px) {
+            @media screen and (qmax-width: 428px) {
               opacity: 0;
               position: absolute;
               width: 90%;

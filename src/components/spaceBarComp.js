@@ -4,45 +4,89 @@ import Caption from "./caption";
 
 const move1 = keyframes`
   0% {
-    top: 0;
+    margin-top: 0;
     transform: rotate(-21.5deg);
   }
   25% {
-    top: 0;
+    margin-top: 0;
     transform: rotate(-21.5deg);
   }
   50% {
-    top: 18.73vmin;
+    margin-top: 18.73vmin;
     transform: rotate(0deg);
   }
   75% {
-    top: 18.73vmin;
+    margin-top: 18.73vmin;
     transform: rotate(0deg);
   }
   100% {
-    top: 0;
+    margin-top: 0;
     transform: rotate(-21.5deg);
   }
 `;
 const move2 = keyframes`
   0% {
-    top: 0;
+    margin-top: 0;
     
   }
   25% {
-    top: 0;
+    margin-top: 0;
     
   }
   50% {
-    top: 33.29vmin;
+    margin-top: 35vmin;
     
   }
   75% {
-    top: 33.29vmin;
+    margin-top: 35vmin;
     
   }
   100% {
-    top: 0;
+    margin-top: 0;
+  }
+`;
+
+const move1mobile = keyframes`
+  0% {
+    margin-top: 0;
+    transform: rotate(-21.5deg);
+  }
+  25% {
+    margin-top: 0;
+    transform: rotate(-21.5deg);
+  }
+  50% {
+    margin-top: 15vh;
+    transform: rotate(0deg);
+  }
+  75% {
+    margin-top: 15vh;
+    transform: rotate(0deg);
+  }
+  100% {
+    margin-top: 0;
+    transform: rotate(-21.5deg);
+  }
+`;
+const move2mobile = keyframes`
+  0% {
+    margin-top: 0;
+    
+  }
+  25% {
+    margin-top: 0;
+    
+  }
+  50% {
+    margin-top: 30vh;
+    
+  }
+  75% {
+    margin-top: 30vh;
+    
+  }
+  100% {
+    margin-top: 0;
   }
 `;
 
@@ -53,6 +97,71 @@ const rotate = keyframes`
   100%{
     transform: rotate(360deg);
   }
+`;
+
+const fadeUp1 = keyframes`
+0% {
+  opacity: 0
+}
+
+25% {
+  opacity: 0
+}
+
+26% {
+  opacity: 1
+}
+
+99% {
+  opacity: 1
+}
+
+100% {
+  opacity: 0
+}
+`;
+
+const fadeUp2 = keyframes`
+0% {
+  opacity: 0
+}
+
+50% {
+  opacity: 0
+}
+
+51% {
+  opacity: 1
+}
+
+99% {
+  opacity: 1
+}
+
+100% {
+  opacity: 0
+}
+`;
+const fadeUp3 = keyframes`
+0% {
+  opacity: 0
+}
+
+75% {
+  opacity: 0
+}
+
+76% {
+  opacity: 1
+}
+
+99% {
+  opacity: 1
+}
+
+100% {
+  opacity: 0
+}
 `;
 
 const SpaceBarComp = () => {
@@ -72,37 +181,50 @@ const SpaceBarComp = () => {
         className={css`
           position: relative;
           width: 100vw;
-          height: 100vmin;
-          display: inline;
+          height: 100vh;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          @media screen and (max-width: 428px) {
+            flex-direction: column;
+          }
         `}
       >
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/workPage/02_SPCEBAR.gif"
           className={css`
-            position: absolute;
             width: 34.63vw;
             height: auto;
-            left: 18.8vw;
-            top: 29.67vmin;
-            margin-right: 6.25vw;
+            margin: 5vh 6.25vw;
+            @media screen and (max-width: 428px) {
+              width: 90%;
+            }
           `}
           alt="space bar"
         />
         <div
           className={css`
-            position: absolute;
             width: 17.73vw;
-            height: fit-content;
-            left: 59.71vw;
-            top: 17.84vmin;
+            height: 50vh;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width: 428px) {
+              width: 50%;
+            }
           `}
         >
           <img
             src="https://nina-website.s3.ap-southeast-1.amazonaws.com/spacebar/spcbr-07.jpg"
             className={css`
-              width: 15.56vw;
+              position: absolute;
+              width: 17.73vw;
               height: auto;
               transform: rotate(-21.5deg);
+              @media screen and (max-width: 428px) {
+                width: 50%;
+              }
             `}
             alt="card"
           />
@@ -110,10 +232,14 @@ const SpaceBarComp = () => {
             src="https://nina-website.s3.ap-southeast-1.amazonaws.com/spacebar/spcbr-07.jpg"
             className={css`
               position: absolute;
-              left: 0;
-              width: 15.56vw;
+              width: 17.73vw;
               height: auto;
+              transform: rotate(-21.5deg);
               animation: ${move1} 6s linear infinite;
+              @media screen and (max-width: 428px) {
+                width: 50%;
+                animation: ${move1mobile} 6s linear infinite;
+              }
             `}
             alt="card"
           />
@@ -121,11 +247,14 @@ const SpaceBarComp = () => {
             src="https://nina-website.s3.ap-southeast-1.amazonaws.com/spacebar/spcbr-07.jpg"
             className={css`
               position: absolute;
-              left: 0;
-              width: 15.56vw;
+              width: 17.73vw;
               height: auto;
               transform: rotate(-21.5deg);
               animation: ${move2} 6s linear infinite;
+              @media screen and (max-width: 428px) {
+                width: 50%;
+                animation: ${move2mobile} 6s linear infinite;
+              }
             `}
             alt="card"
           />
@@ -144,6 +273,7 @@ const SpaceBarComp = () => {
           display: flex;
           flex-direction: row;
           justify-content: space-evenly;
+          align-items: center;
           margin-bottom: 21.43vmin;
         `}
       >
@@ -152,6 +282,10 @@ const SpaceBarComp = () => {
           className={css`
             height: auto;
             width: 20.05vw;
+            @media screen and (max-width: 428px) {
+              width: 70%;
+              z-index: 1;
+            }
           `}
           alt="poster"
         />
@@ -160,14 +294,12 @@ const SpaceBarComp = () => {
           className={css`
             height: auto;
             width: 20.05vw;
-          `}
-          alt="poster"
-        />
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/spacebar/spcbr_poster1_re.png"
-          className={css`
-            height: auto;
-            width: 20.05vw;
+            animation: ${fadeUp1} 10s linear infinite;
+            @media screen and (max-width: 428px) {
+              position: absolute;
+              width: 70%;
+              z-index: 2;
+            }
           `}
           alt="poster"
         />
@@ -176,6 +308,26 @@ const SpaceBarComp = () => {
           className={css`
             height: auto;
             width: 20.05vw;
+            animation: ${fadeUp2} 10s linear infinite;
+            @media screen and (max-width: 428px) {
+              position: absolute;
+              width: 70%;
+              z-index: 3;
+            }
+          `}
+          alt="poster"
+        />
+        <img
+          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/spacebar/spcbr_poster1_re.png"
+          className={css`
+            height: auto;
+            width: 20.05vw;
+            animation: ${fadeUp3} 10s linear infinite;
+            @media screen and (max-width: 428px) {
+              position: absolute;
+              width: 70%;
+              z-index: 4;
+            }
           `}
           alt="poster"
         />
@@ -207,6 +359,7 @@ const SpaceBarComp = () => {
             height: auto;
             top: 10vmin;
             left: 20%;
+            animation: ${fadeUp1} 10s linear infinite;
           `}
           alt="space card"
         />
@@ -218,6 +371,7 @@ const SpaceBarComp = () => {
             height: auto;
             top: 20vmin;
             left: 40%;
+            animation: ${fadeUp2} 10s linear infinite;
           `}
           alt="space card"
         />
@@ -229,6 +383,7 @@ const SpaceBarComp = () => {
             height: auto;
             top: 30vmin;
             left: 60%;
+            animation: ${fadeUp3} 10s linear infinite;
           `}
           alt="space card"
         />
@@ -237,40 +392,61 @@ const SpaceBarComp = () => {
         className={css`
           position: relative;
           width: 100vw;
-          height: 100vmin;
+          height: fit-content;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 0 0 10vmin 0;
+          @media screen and (max-width: 428px) {
+            flex-direction: column;
+          }
         `}
       >
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/spacebar/spcebar_05.png"
+        <div
           className={css`
-            position: absolute;
-            width: 9.16vw;
-            height: auto;
-            left: 25.93vw;
-            top: 5.2vmin;
-            animation: ${rotate} 10s linear infinite;
+            position: relative;
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
           `}
-          alt="element"
-        />
-        <img
-          src="https://nina-website.s3.ap-southeast-1.amazonaws.com/spacebar/spcecard_2+copy.png"
-          className={css`
-            position: absolute;
-            width: 19.53vw;
-            height: auto;
-            left: 20.72vw;
-            top: 39.33vmin;
-          `}
-          alt="element"
-        />
+        >
+          <img
+            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/spacebar/spcebar_05.png"
+            className={css`
+              width: 9.16vw;
+              height: auto;              
+              animation: ${rotate} 10s linear infinite;
+              @media screen and (max-width: 428px) {
+                width: 40%;
+              }
+            `}
+            alt="element"
+          />
+          <img
+            src="https://nina-website.s3.ap-southeast-1.amazonaws.com/spacebar/spcecard_2+copy.png"
+            className={css`
+              width: 19.53vw;
+              height: auto;
+              margin: 8vmin 0;
+              @media screen and (max-width: 428px) {
+                width: 60%;
+              }
+            `}
+            alt="element"
+          />
+        </div>
         <img
           src="https://nina-website.s3.ap-southeast-1.amazonaws.com/spacebar/spcbr_02_re.png"
           className={css`
-            position: absolute;
             width: 26.92vw;
             height: auto;
-            left: 52.34vw;
-            top: 0;
+            @media screen and (max-width: 428px) {
+              width: 70%;
+            }
           `}
           alt="element"
         />
