@@ -274,7 +274,7 @@ const SpaceBarComp = () => {
           flex-direction: row;
           justify-content: space-evenly;
           align-items: center;
-          margin-bottom: 21.43vmin;
+          margin: 20vmin 0;
         `}
       >
         <img
