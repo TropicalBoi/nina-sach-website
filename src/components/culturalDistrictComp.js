@@ -22,6 +22,43 @@ const moveLeft = keyframes`
 }
 `;
 
+const fadeUp1 = keyframes`
+0% {
+  opacity: 0
+}
+
+33% {
+  opacity: 0
+}
+
+34% {
+  opacity: 1
+}
+
+100% {
+  opacity: 1
+}
+`;
+
+const fadeUp2 = keyframes`
+0% {
+  opacity: 0
+}
+
+66% {
+  opacity: 0
+}
+
+67% {
+  opacity: 1
+}
+
+100% {
+  opacity: 1
+}
+`;
+
+
 const CulturalDistrictComp = () => {
   return (
     <div
@@ -33,7 +70,7 @@ const CulturalDistrictComp = () => {
       <div
         className={css`
           width: 100vw;
-          height: 100vmin;
+          height: 100vh;
           display: flex;
           flex-direction: row;
           justify-content: center;
@@ -45,6 +82,9 @@ const CulturalDistrictComp = () => {
           className={css`
             width: 60.67vw;
             height: auto;
+            @media screen and (max-width: 428px) {
+              width: 95%;
+            }
           `}
           alt="Cultural District"
         />
@@ -60,14 +100,21 @@ const CulturalDistrictComp = () => {
           height: fit-content;
           display: flex;
           flex-direction: row;
-          justify-content: space-evenly;
+          justify-content: center;
           align-items: center;
+          @media screen and (max-width: 428px) {
+            flex-direction: column;
+          }
         `}
       >
         <div
           className={css`
             width: 31.97vw;
-            height: 31.97vw;
+            height: fit-content;
+            margin: 5vw;
+            @media screen and (max-width: 428px) {
+              width: 80%;
+            }
           `}
         >
           <video
@@ -88,6 +135,10 @@ const CulturalDistrictComp = () => {
           className={css`
             width: 12.86vw;
             height: auto;
+            margin: 5vw;
+            @media screen and (max-width: 428px) {
+              width: 60%;
+            }
           `}
           alt="Cultural District"
         />
@@ -107,6 +158,9 @@ const CulturalDistrictComp = () => {
           className={css`
             width: 79.84vw;
             height: auto;
+            @media screen and (max-width: 428px) {
+              width: 95%;
+            }
           `}
           alt="Cultural District"
         />
@@ -158,6 +212,9 @@ const CulturalDistrictComp = () => {
             width: 62.03vw;
             height: auto;
             margin-top: 20vmin;
+            @media screen and (max-width: 428px) {
+              width: 100%;
+            }
           `}
           alt="Cultural District"
         />
@@ -170,6 +227,10 @@ const CulturalDistrictComp = () => {
           flex-direction: row;
           justify-content: space-evenly;
           align-items: flex-start;
+          @media screen and (max-width: 428px) {
+            justify-content: center;
+            height: 80vh;
+          }
         `}
       >
         <img
@@ -178,6 +239,11 @@ const CulturalDistrictComp = () => {
             width: 26.04vw;
             height: auto;
             margin-top: 20vmin;
+            @media screen and (max-width: 428px) {
+              position: absolute;
+              width: 90%;
+              z-index: 1;
+            }
           `}
           alt="Cultural District"
         />
@@ -187,6 +253,13 @@ const CulturalDistrictComp = () => {
             width: 26.04vw;
             height: auto;
             margin-top: 20vmin;
+            opacity: 0;
+            @media screen and (max-width: 428px) {
+              position: absolute;
+              width: 90%;
+              z-index: 2;
+              animation: ${fadeUp1} 10s linear infinite;
+            }
           `}
           alt="Cultural District"
         />
@@ -196,6 +269,13 @@ const CulturalDistrictComp = () => {
             width: 26.04vw;
             height: auto;
             margin-top: 20vmin;
+            opacity: 0;
+            @media screen and (max-width: 428px) {
+              position: absolute;
+              width: 90%;
+              z-index: 3;
+              animation: ${fadeUp2} 10s linear infinite;
+            }
           `}
           alt="Cultural District"
         />
@@ -207,7 +287,10 @@ const CulturalDistrictComp = () => {
           display: flex;
           flex-direction: row;
           justify-content: center;
-          align-items: flex-start;
+          align-items: center;
+          @media screen and (max-width: 428px) {
+            flex-direction: column;
+          }
         `}
       >
         <img
@@ -216,6 +299,9 @@ const CulturalDistrictComp = () => {
             width: 23.85vw;
             height: auto;
             margin: 20vmin 2vw;
+            @media screen and (max-width: 428px) {
+              width: 80%;
+            }
           `}
           alt="Cultural District"
         />
@@ -225,6 +311,9 @@ const CulturalDistrictComp = () => {
             width: 23.85vw;
             height: auto;
             margin: 20vmin 2vw;
+            @media screen and (max-width: 428px) {
+              width: 80%;
+            }
           `}
           alt="Cultural District"
         />
